@@ -21,12 +21,15 @@ Este projeto consiste em um chatbot desenvolvido para auxiliar estudantes na cri
 
 1. **Abra o projeto no Google Colab:**
    
-
-2. **Instalação das Dependências:**
-   - Instale as dependências necessárias, se ainda não estiverem instaladas.
+2. **Configuração da API Key:**
+   - Insira sua API key do Google no ambiente do Colab.
+   - Certifique-se de executar esta etapa antes de utilizar o chatbot.
    ```python
-   !pip install PyMuPDF spacy nltk
+   import os
+   os.environ['GOOGLE_API_KEY'] = 'sua_api'
    ```
+3. **Execute todas as funções**
+   
 
 3. **Configuração da API Key:**
    - Insira sua API key do Google no ambiente do Colab.
