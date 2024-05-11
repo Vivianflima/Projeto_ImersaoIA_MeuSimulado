@@ -1,13 +1,13 @@
 # Chatbot para Criação de Provas com IA 🤖📝
 
-Este projeto consiste em um chatbot que utiliza inteligência artificial para auxiliar estudantes na criação de perguntas para provas e simulados com base em material de estudo em PDF e provas de exemplo.
+Este projeto consiste em um chatbot desenvolvido para auxiliar estudantes na criação de perguntas para provas e simulados com base em material de estudo em PDF e provas de exemplo.
 
 ## Funcionalidades
 
-- **Extração de Texto de PDFs:** O chatbot extrai texto de arquivos PDF de material de estudo hospedados em repositórios do GitHub.
+- **Extração de Texto de PDFs:** O chatbot é capaz de extrair texto de arquivos PDF de material de estudo hospedados em repositórios do GitHub.
 - **Análise de Provas de Exemplo:** Opcionalmente, o chatbot pode analisar provas de exemplo para entender o estilo e a dificuldade das perguntas.
 - **Geração de Perguntas:** Utilizando o modelo de linguagem Google Gemini, o chatbot gera perguntas com alternativas baseadas no texto extraído.
-- **Interface Interativa:** O chatbot oferece uma interface interativa para os usuários responderem às perguntas.
+- **Interface Interativa:** Oferece uma interface interativa no Google Colab para os usuários responderem às perguntas.
 - **Feedback Automático:** Após o usuário responder às perguntas, o chatbot fornece feedback com a nota do usuário e as respostas corretas.
 
 ## Tecnologias Utilizadas
@@ -17,22 +17,28 @@ Este projeto consiste em um chatbot que utiliza inteligência artificial para au
 - **spaCy:** Biblioteca de processamento de linguagem natural para análise de texto.
 - **NLTK (WordNet):** Ferramenta para acesso a dicionários de sinônimos e antônimos.
 
-## Como Usar
+## Como Usar no Google Colab
 
-1. **Instalação:**
-   - Clone este repositório para o seu ambiente local.
-   - Certifique-se de ter todas as dependências instaladas (spacy, nltk, etc.).
+1. **Abra o projeto no Google Colab:**
+   
 
-2. **Configuração da API Key:**
-   - Insira sua API key do Google no arquivo `.env` no campo `GOOGLE_API_KEY`.
+2. **Instalação das Dependências:**
+   - Instale as dependências necessárias, se ainda não estiverem instaladas.
+   ```python
+   !pip install PyMuPDF spacy nltk
+   ```
 
-3. **Execução:**
-   - Execute o arquivo principal do chatbot.
-   - Forneça a URL do repositório onde o PDF do material de estudo está armazenado.
-   - Opcionalmente, forneça a URL de um PDF com uma prova de exemplo.
-   - O chatbot irá gerar perguntas com base no texto do PDF e na prova de exemplo (se fornecida).
-   - Responda às perguntas apresentadas na interface interativa.
-   - Ao final, o chatbot apresentará sua nota e as respostas corretas.
+3. **Configuração da API Key:**
+   - Insira sua API key do Google no ambiente do Colab.
+   - Certifique-se de executar esta etapa antes de utilizar o chatbot.
+   ```python
+   import os
+   os.environ['GOOGLE_API_KEY'] = 'sua_api'
+   ```
+
+4. **Execução do Chatbot:**
+   - Execute o código do chatbot no Google Colab.
+   - Siga as instruções para fornecer as URLs dos PDFs e interagir com o chatbot.
 
 ## Observações
 
