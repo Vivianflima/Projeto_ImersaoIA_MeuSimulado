@@ -1,6 +1,6 @@
 # Chatbot para Criação de Provas com IA 🤖📝
 
-Este projeto consiste em um chatbot desenvolvido para auxiliar estudantes na criação de perguntas para provas e simulados com base em material de estudo em PDF e provas de exemplo.
+Olá pessoal!! Eu sou a Vivian, tenho 40 anos, sou QA e sou fundadora do [Cantinho das QAs](https://www.cantinhodasqas.com.br/) e a ideia deste projeto surgiu justamente pois muitos QAs têm dificuldades de encontrar simulados e provas adequadas para estudar para certificações pertinentes como CTFL, CTFL-AT e ele consiste em um chatbot desenvolvido para auxiliar estudantes na criação de perguntas para provas e simulados com base em material de estudo em PDF e provas de exemplo.
 
 ## Funcionalidades
 
