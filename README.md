@@ -1,6 +1,9 @@
 # Chatbot para Criação de Provas com IA 🤖📝
 
-Olá pessoal!! Eu sou a Vivian, tenho 40 anos, sou QA e sou fundadora do [Cantinho das QAs](https://www.cantinhodasqas.com.br/) e a ideia deste projeto surgiu justamente pois muitos QAs têm dificuldades de encontrar simulados e provas adequadas para estudar para certificações pertinentes como CTFL, CTFL-AT e ele consiste em um chatbot desenvolvido para auxiliar estudantes na criação de perguntas para provas e simulados com base em material de estudo em PDF e provas de exemplo.
+Olá pessoal!! Eu sou a Vivian, tenho 40 anos, sou QA e sou fundadora do [Cantinho das QAs](https://www.cantinhodasqas.com.br/).
+Este projeto é a entrega resultante da **Imersão Inteligência Artificial da Alura com o Google** e a ideia deste projeto surgiu devido a muitos QAs como eu que têm dificuldades de encontrar simulados e provas adequadas para estudar para certificações pertinentes como CTFL, CTFL-AT e ele consiste em um chatbot desenvolvido para auxiliar estudantes na criação de perguntas para provas e simulados com base em material de estudo em PDF e provas de exemplo.
+
+Abaixo segue a implementação do projeto, feito baseado nas 5 aulas da Imersão:
 
 ## Funcionalidades
 
